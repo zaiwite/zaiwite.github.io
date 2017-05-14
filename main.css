@@ -1,0 +1,19 @@
+.hexagon{
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.hexagon-top, .hexagon-bottom{
+  position: absolute;
+  content: '';
+  display: block;
+  width: 200px;
+  height: 50px;
+  border: 200px solid transparent;
+}
+.hexagon-top{
+  border-bottom: 200px solid #000;
+}
+.hexagon-bottom{
+  border-top: 200px solid #000;
+}
