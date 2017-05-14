@@ -1,0 +1,23 @@
+.hexagon{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  &-top, &-bottom{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100px;
+    height: 50px;
+    border: 100px solid transparent;
+    left: 0;
+    right: 0;
+  }
+  &-top{
+    border-bottom: 100px solid #000;
+    top: 0;
+  }
+  &-bottom{
+    border-top: 100px solid #000;
+    bottom: 0;
+  }
+}
