@@ -1,0 +1,23 @@
+{
+  "name": "zaiwite.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaiwite/zaiwite.github.io.git"
+  },
+  "author": "Marco Riolo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaiwite/zaiwite.github.io/issues"
+  },
+  "homepage": "https://github.com/zaiwite/zaiwite.github.io#readme",
+  "devDependencies": {
+    "webpack": "^3.5.1",
+    "webpack-dev-server": "^2.7.0"
+  }
+}
