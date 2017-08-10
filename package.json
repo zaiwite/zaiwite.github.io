@@ -1,10 +1,11 @@
 {
   "name": "zaiwite.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "react boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "dev": "webpack-dev-server --inline --hot"
   },
   "repository": {
     "type": "git",
@@ -17,11 +18,23 @@
   },
   "homepage": "https://github.com/zaiwite/zaiwite.github.io#readme",
   "devDependencies": {
+    "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-hot-loader": "^1.3.0",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "react-hot-loader": "^1.3.1",
     "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
     "webpack": "^3.5.1",
     "webpack-dev-server": "^2.7.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }
